@@ -36,7 +36,8 @@ reducing the risk of unpredictable behavior.
 Overall, the theory behind an asynchronous FIFO revolves around managing data transfer between different clock domains
 while considering timing differences, ensuring data integrity, and providing status indications for proper operation. The
 actual implementation of an asynchronous FIFO involves designing the circuitry and control logic based on these principles.
-![images](https://github.com/smsarmava/Asynchronous_FIFO/assets/142528982/5032f356-835d-4e51-b903-044d0b83d20c)
+![FIFO-Block-Diagram-partitioned-on-clock-boundaries](https://github.com/smsarmava/Asynchronous_FIFO/assets/142528982/f793c7f8-eddb-4e76-901d-791254c262f3)
+
 
 ## Advantages:
 The primary advantage of asynchronous FIFOs lies in their ability to handle data transfer between clock domains without the need for global synchronization. This leads to reduced latency and avoids the complexities associated with clock domain synchronization techniques. Asynchronous FIFOs offer flexibility by accommodating various clock frequencies, making them ideal for scenarios where timing differences exist.
